@@ -1,0 +1,38 @@
+body {
+  background: #131b21;
+}
+.centrado {
+  text-align: center; /* Centrar el texto dentro del div */
+  /* Puedes agregar más estilos aquí, como fondo, bordes, etc. */
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+svg#flower-frame {
+  height: 90vh;
+  width: 100%;
+}
+#titulo {
+  text-align: center; /* Centrar el texto */
+  font-size: 2em; /* Tamaño de fuente del título */
+  margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+
+#Footer_group_1_,
+[id^=PinkFlowerGroup],
+[id^=BaseGroup] path,
+[id^=LeafGroup] path,
+path[id^=Stroke],
+g[id^=BudGroup] g[id^=BudGroup] g[id^=Bud],
+#Bud8_1_,
+#Bud10_1_,
+#Bud23_1_,
+#Bud26_1_,
+[id^=Dots],
+[id^=Flourish] {
+  visibility: hidden;
+}
